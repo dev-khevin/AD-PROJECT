@@ -1,0 +1,24 @@
+:root {
+  --bg: #fafafa;
+  --text: #111;
+  --muted: #8a8a8a;
+  --line: #e6e6e6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', -apple-system, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+button { font-family: inherit; cursor: pointer; border: none; }
+input, textarea {
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+input:focus, textarea:focus { outline: none; border-color: var(--text); }
